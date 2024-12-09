@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css" />
+</head>
+<body> 
+<header class="header" id="header">
+   <nav class="nav container">
+    <a href="#" class="nav__logo"> LOGO </a>
+    <div class="nav__menu" id="nav__menu">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#" class="nav__link">
+                    Home
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link"> 
+                    About 
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link"> 
+                    Services 
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link"> 
+                    Contact
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link"> 
+                    Feedback
+                </a>
+            </li>
+        </ul> 
+        <div class="nav__close" id="nav__close">
+        <i class="fa-solid fa-xmark"></i>
+        </div>
+   </div>
+
+    <div class="nav__actions">
+       <div class="dropdown" id="dropdown">
+        <div class="dropdown__profile">
+           <div class="dropdown__names">
+            <h3>Rishitha</h3>
+            <span>Developer</span>
+           </div>
+
+           <div class="dropdown__image">
+            <img src="img/Profile_picture-removebg-preview.png" alt="myself">
+           </div>
+        </div>
+
+        <div class="dropdown__list">
+         <a href="#" class="dropdown__link">
+            <i class="fa-solid fa-circle-user"></i>
+            <span>Profile</span>
+         </a>
+
+         <a href="#" class="dropdown__link">
+            <i class="fa-regular fa-clock"></i> <span>Activity</span>
+         </a>
+
+         <a href="#" class="dropdown__link">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Saved</span>
+         </a>
+
+         <a href="#" class="dropdown__link">
+            <i class="fa-solid fa-gear"></i>
+            <span>Settings</span>
+         </a>
+
+         <a href="#" class="dropdown__link">
+            <i class="fa-solid fa-right-from-bracket"></i> <span>Logout</span>
+         </a>
+        </div>
+       </div>
+
+       <div class="nav__toggle" id="nav__toggle">
+        <i class="fa-solid fa-bars"></i>
+       </div>
+    </div>
+   </nav>
+</header>
+<script src="main.js"></script>
+</body>
+</html>
